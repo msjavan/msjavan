@@ -40,12 +40,6 @@ a{color:inherit;text-decoration:none}
 img{max-width:100%;display:block}
 .wrap{max-width:1080px;margin:0 auto;padding:0 24px}
 
-/* PROMO BANNER */
-.promo-banner{background:linear-gradient(135deg,var(--blue),var(--teal));color:#fff;padding:10px 16px;text-align:center;font-size:.84rem;position:relative;z-index:60}
-.promo-banner a{color:#FFD700;font-weight:700;text-decoration:underline;margin-right:4px}
-.promo-banner .close-btn{position:absolute;left:12px;top:50%;transform:translateY(-50%);background:none;border:none;color:#fff;cursor:pointer;font-size:1rem;opacity:.7}
-.promo-banner .close-btn:hover{opacity:1}
-
 /* NAV */
 .nav{position:sticky;top:0;z-index:50;background:rgba(244,245,240,.95);backdrop-filter:blur(12px);border-bottom:1px solid var(--line);height:60px;transition:box-shadow .3s,background .3s}
 [data-theme="dark"] .nav{background:rgba(15,23,42,.95)}
@@ -268,32 +262,25 @@ section.alt .ws-card{background:var(--paper-raise)}
 </head>
 <body>
 
-<!-- PROMO BANNER -->
-<div class="promo-banner" id="promoBanner">
-  📖 <strong>کتاب معماری مرجع ابر دولت ایران (GCRA)</strong> منتشر شد!
-  <a href="https://gcra.ir" target="_blank" rel="noopener">مشاهده و مطالعه ←</a>
-  <button class="close-btn" id="closeBanner" aria-label="بستن">✕</button>
-</div>
+
 
 <!-- NAV -->
 <nav class="nav" id="nav">
   <div class="wrap">
     <a class="nav-brand" href="#top"><span class="dot"></span>دکتر مرتضی سرگلزایی جوان</a>
     <ul class="nav-links" id="navLinks">
-      <li><a href="#about">درباره من</a></li>
-      <li><a href="#timeline">سوابق</a></li>
-      <li><a href="#projects">پروژه‌ها</a></li>
-      <li><a href="#book">کتاب</a></li>
-      <li><a href="#publications">انتشارات</a></li>
-      <li><a href="#workshops">دوره‌ها</a></li>
-      <li><a href="#blog">یادداشت‌ها</a></li>
-      <li><a href="#contact">تماس</a></li>
-      <li><a href="https://gcra.ir" target="_blank" rel="noopener" class="gcra-link">📖 سایت GCRA</a></li>
-      <li>
+      <a href="#about">درباره من</a>
+      <a href="#timeline">سوابق</a>
+      <a href="#projects">پروژه‌ها</a>
+      <a href="#book">کتاب</a>
+      <a href="#publications">انتشارات</a>
+      <a href="#workshops">دوره‌ها</a>
+      <a href="#blog">یادداشت‌ها</a>
+      <a href="#contact">تماس</a>
+      <a href="https://gcra.ir" target="_blank" rel="noopener" class="gcra-link">📖 سایت GCRA</a></li>
         <button class="theme-btn" id="themeBtn" aria-label="تغییر تم">
           <svg id="themeIcon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
         </button>
-      </li>
     </ul>
     <button class="nav-toggle" id="navToggle" aria-label="منو">
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="4" y1="7" x2="20" y2="7"/><line x1="4" y1="12" x2="20" y2="12"/><line x1="4" y1="17" x2="20" y2="17"/></svg>
@@ -347,7 +334,7 @@ section.alt .ws-card{background:var(--paper-raise)}
     <div>
       <div class="sec-head reveal"><div class="rule"></div><h2>درباره من</h2></div>
       <p class="reveal">دارای دو مدرک دکترای تخصصی (PhD) مهندسی فناوری اطلاعات از دانشگاه صنعتی امیرکبیر و مدیریت عالی کسب‌وکار (DBA) هستم. در حال حاضر مدیریت توسعه کسب‌وکار در مرکز نوآوری و شتاب‌دهی برنا، مستقر در پارک فناوری دانشگاه تهران، را بر عهده دارم و دوره MBA کسب‌وکار دیجیتال را در دانشکدگان مدیریت دانشگاه تهران تدریس می‌کنم.</p>
-      <p class="reveal">فعالیت حرفه‌ای‌ام را از سال ۱۳۸۸ با راه‌اندازی مرکز تحقیقات رایانش ابری دانشگاه امیرکبیر آغاز کردم. طی این سال‌ها در کنار فعالیت‌های علمی و اجرایی در حوزه رایانش ابری، کلان داده، هوش مصنوعی و بلاکچین، در مشاوره به نهادهای حاکمیتی از جمله تدوین معماری مرجع ابر دولت ایران نیز مشارکت داشته‌ام.</p>
+      <p class="reveal">فعالیت حرفه‌ای‌ام را از سال ۱۳۸۸ با راه‌اندازی مرکز تحقیقات رایانش ابری دانشگاه امیرکبیر آغاز کردم. طی این سال‌ها در کنار فعالیت‌های علمی و اجرایی در حوزه رایانش ابری، کلان داده، هوش مصنوعی و بلاکچین، در پروژه های ملی از جمله تدوین معماری مرجع ابر دولت ایران نیز مشارکت داشته‌ام.</p>
     </div>
     <div class="creds reveal">
       <h3>سمت‌های فعلی</h3>
@@ -355,9 +342,6 @@ section.alt .ws-card{background:var(--paper-raise)}
         <li><strong>مدیر توسعه کسب‌وکار</strong><small>مرکز نوآوری و شتاب‌دهی برنا، پارک فناوری دانشگاه تهران — از ۱۳۹۸</small></li>
         <li><strong>مدرس دوره MBA کسب‌وکار دیجیتال</strong><small>دانشکدگان مدیریت دانشگاه تهران</small></li>
         <li><strong>کارشناس ارزیابی شرکت‌های دانش‌بنیان</strong><small>معاونت علمی و فناوری ریاست‌جمهوری؛ عضو کمیته سردبیری ICT — از ۱۳۹۵</small></li>
-      </ul>
-      <h3>تأسیس و دبیری</h3>
-      <ul>
         <li><strong>جامعه آزاد رایانش ابری ایران</strong><small>occc.ir</small></li>
         <li><strong>انجمن بلاکچین سازمانی</strong><small>openchain.ir</small></li>
         <li><strong>فروم کلان داده‌ها</strong><small>openbigdata@</small></li>
@@ -400,10 +384,6 @@ section.alt .ws-card{background:var(--paper-raise)}
       <li class="proj-item"><span class="proj-year">۹۷</span><span class="proj-title">تدوین الزامات فنی و قانونی برای رگولاتوری داده‌های کلان</span><span class="proj-client">سازمان تنظیم مقررات و ارتباطات رادیویی</span></li>
       <li class="proj-item"><span class="proj-year">۹۶</span><span class="proj-title">تدوین نقشه راه کلان داده‌ها</span><span class="proj-client">وزارت ارتباطات / سازمان فناوری اطلاعات</span></li>
     </ul>
-    <div class="rnd-note reveal">
-      <strong>هم‌بنیان‌گذاری و تحقیق و توسعه محصول: </strong>
-      طراحی و توسعه چند محصول بومی مبتنی بر رایانش ابری از جمله سامانه پردازش CDR و بیلینگ اپراتورها («حکیم»)، سیستم‌عامل ابری تحت وب («حافظ») و سکوی ارائه فرآیندهای تجاری به‌صورت سرویس («آوا»)، در کنار تحقیق و توسعه در حوزه سیستم‌های فایل توزیع‌شده، حافظه نهان چندسطحی و توازن بار داده‌محور در مقیاس پتابایت.
-    </div>
   </div>
 </section>
 
@@ -680,11 +660,7 @@ section.alt .ws-card{background:var(--paper-raise)}
     window.scrollTo({top:0,behavior:'smooth'});
   });
 
-  // Banner close
-  var banner=document.getElementById('promoBanner');
-  document.getElementById('closeBanner').addEventListener('click',function(){
-    banner.style.display='none';
-  });
+
 
   // Reveal animations
   var observer=new IntersectionObserver(function(entries){
